@@ -5,7 +5,7 @@ include_once APPPATH.'libraries/builder/ConfigBuilder.php';
 class ConfigTableBuilder extends ConfigBuilder{
 
     function __construct(){
-        parent::__construct();
+        parent::__construct('custos');
     }
 
     function get_data(){
