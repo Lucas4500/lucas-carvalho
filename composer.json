@@ -1,0 +1,12 @@
+{
+    "name": "lucas/custos",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas4500",
+            "email": "lucaszeno_@hotmail.com"
+        }
+    ],
+    "require": {}
+}
