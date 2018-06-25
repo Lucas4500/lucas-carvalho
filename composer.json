@@ -1,6 +1,6 @@
 {
     "name": "lucascarvalho/custos",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
