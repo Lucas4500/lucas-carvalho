@@ -9,7 +9,9 @@ class ConfigTableBuilder extends ConfigBuilder{
     }
 
     function get_data(){
-        return array(
+        $base = parent::get_data();
+        
+        $data = array(
             array(
                 'nome' => 'mod_custos_active', 
                 'valor' => 1,
@@ -29,6 +31,7 @@ class ConfigTableBuilder extends ConfigBuilder{
                 'admin_only' => 1
             )
         );
+        return array_merge($base, $data);
     }
 }
 
